@@ -1,7 +1,16 @@
 
 $(document).ready(function () {
-    /*-- Start Video PopUp --*/
 
+    /*-- Start Navbar Shrink --*/
+    $(window).on("scroll", function () {
+        if ($(this).scrollTop() > 90)
+            $(".navbar").addClass("navbar-shrink");
+        else
+            $(".navbar").removeClass("navbar-shrink");
+    });
+    /*-- End Navbar Shrink --*/
+
+    /*-- Start Video PopUp --*/
     const video_src = $("#player-video-theme").attr("src")
     $(".btn-video-play, .video-popup").on("click", function () {
         if ($(".video-popup").hasClass("open")) {
@@ -14,10 +23,5 @@ $(document).ready(function () {
             }
         }
     });
-
     /*-- End Video PopUp --*/
-
-    /*-- Start gsap js --*/
-
-    /*-- End gsap js --*/
 });
