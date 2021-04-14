@@ -167,6 +167,7 @@ ul {
     background-color: var(--main-to-dark-color);
     position        : relative;
     z-index         : 1;
+    overflow        : hidden;
 }
 
 .home-text h1 {
