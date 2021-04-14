@@ -494,3 +494,77 @@ ul {
 }
 
 /*-- End Features Section --*/
+
+/*-- Start Fun Facts Section --*/
+.fun-facts {
+    background-color: var(--black-100);
+}
+
+.fun-facts .section-title {
+    margin: 5px 0px 20px 0px;
+}
+
+.fun-facts .section-title h2 {
+    text-align: left;
+}
+
+.fun-facts-text p {
+    font-size  : 16px;
+    font-weight: 300;
+    line-height: 26px;
+    margin     : 0 0 15px;
+    color      : var(--black-400);
+}
+
+.fun-facts-img img {
+    width        : 100%;
+    height       : auto;
+    max-width    : 250px;
+    border-radius: 32px;
+    box-shadow   : var(--shadow-black-100);
+    animation    : bounceTop_home_phone 4s ease infinite;
+}
+
+.fun-fact-item {
+    padding      : 30px;
+    text-align   : center;
+    margin-top   : 30px;
+    border-radius: 10px;
+    box-shadow   : var(--shadow-black-100);
+
+}
+
+.fun-fact-item h3 {
+    font-size  : 40px;
+    font-weight: 700;
+    color      : #fff;
+    margin     : 0 0 5px;
+}
+
+.fun-fact-item span {
+    display       : block;
+    color         : #fff;
+    margin        : 0;
+    font-size     : 16px;
+    font-weight   : 300;
+    line-height   : 26px;
+    text-transform: uppercase;
+}
+
+.fun-fact-item.style-1 {
+    background-color: var(--color-1);
+}
+
+.fun-fact-item.style-2 {
+    background-color: var(--color-2);
+}
+
+.fun-fact-item.style-3 {
+    background-color: var(--color-3);
+}
+
+.fun-fact-item.style-4 {
+    background-color: var(--main-color);
+}
+
+/*-- End Fun Facts Section --*/
