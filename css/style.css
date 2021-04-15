@@ -1,8 +1,12 @@
 /*-- Start Global CSS --*/
 :root {
-    --color-1           : #e91e63;
+    /*--color-1           : #e91e63;
     --color-2           : #f5ae10;
-    --color-3           : #09d69c;
+    --color-3           : #09d69c;*/
+    --color-1           : #e52164;
+    --color-2           : #ffb625;
+    --color-3           : #63c51c;
+    --color-4           : #1b50b9;
     --bg-dark           : #2b2c2f;
     --black-000         : #fff;
     --black-100         : #f7f7f7;
