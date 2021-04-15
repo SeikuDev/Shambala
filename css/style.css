@@ -3,6 +3,7 @@
     --color-1             : #e91e63;
     --color-2             : #f5ae10;
     --color-3             : #09d69c;
+    --color-4             : #571AFF;
     /*--color-1           : #e52164;
     --color-2             : #ffb625;
     --color-3             : #63c51c;*/
@@ -567,7 +568,7 @@ ul {
 }
 
 .fun-fact-item.style-4 {
-    background-color: var(--main-color);
+    background-color: var(--color-4);
 }
 
 /*-- End Fun Facts Section --*/
