@@ -1,23 +1,22 @@
 /*-- Start Global CSS --*/
 :root {
-    /*--color-1           : #e91e63;
-    --color-2           : #f5ae10;
-    --color-3           : #09d69c;*/
-    --color-1           : #e52164;
-    --color-2           : #ffb625;
-    --color-3           : #63c51c;
-    --color-4           : #1b50b9;
-    --bg-dark           : #2b2c2f;
-    --black-000         : #fff;
-    --black-100         : #f7f7f7;
-    --black-400         : #555555;
-    --black-900         : #000;
-    --main-color        : #7857fe;
-    --black-alpha-100   : rgba(0, 0, 0, 0.5);
-    --shadow-black-100  : 0 5px 15px rgba(0, 0, 0, 0.1);
-    --shadow-black-300  : 0 5px 15px rgba(0, 0, 0, 0.3);
-    --main-to-dark-color: var(--main-color);
-    --dark-to-main-color: var(--bg-dark);
+    --color-1             : #e91e63;
+    --color-2             : #f5ae10;
+    --color-3             : #09d69c;
+    /*--color-1           : #e52164;
+    --color-2             : #ffb625;
+    --color-3             : #63c51c;*/
+    --bg-dark             : #2b2c2f;
+    --black-000           : #fff;
+    --black-100           : #f7f7f7;
+    --black-400           : #555555;
+    --black-900           : #000;
+    --main-color          : #7857fe;
+    --black-alpha-100     : rgba(0, 0, 0, 0.5);
+    --shadow-black-100    : 0 5px 15px rgba(0, 0, 0, 0.1);
+    --shadow-black-300    : 0 5px 15px rgba(0, 0, 0, 0.3);
+    --main-to-dark-color  : var(--main-color);
+    --dark-to-main-color  : var(--bg-dark);
 }
 
 @keyframes spin_home_circle {
