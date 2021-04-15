@@ -1,23 +1,23 @@
 /*-- Start Global CSS --*/
 :root {
-    --color-1             : #e91e63;
+    /*--color-1             : #e91e63;
     --color-2             : #f5ae10;
-    --color-3             : #09d69c;
-    --color-4             : #571AFF;
-    /*--color-1           : #e52164;
-    --color-2             : #ffb625;
-    --color-3             : #63c51c;*/
-    --bg-dark             : #2b2c2f;
-    --black-000           : #fff;
-    --black-100           : #f7f7f7;
-    --black-400           : #555555;
-    --black-900           : #000;
-    --main-color          : #7857fe;
-    --black-alpha-100     : rgba(0, 0, 0, 0.5);
-    --shadow-black-100    : 0 5px 15px rgba(0, 0, 0, 0.1);
-    --shadow-black-300    : 0 5px 15px rgba(0, 0, 0, 0.3);
-    --main-to-dark-color  : var(--main-color);
-    --dark-to-main-color  : var(--bg-dark);
+    --color-3             : #09d69c;*/
+    --color-1           : #F06694;
+    --color-2           : #f5ae10;
+    --color-3           : #09d69c;
+    --color-4           : #A280FF;
+    --bg-dark           : #2b2c2f;
+    --black-000         : #fff;
+    --black-100         : #f7f7f7;
+    --black-400         : #555555;
+    --black-900         : #000;
+    --main-color        : #7857fe;
+    --black-alpha-100   : rgba(0, 0, 0, 0.5);
+    --shadow-black-100  : 0 5px 15px rgba(0, 0, 0, 0.1);
+    --shadow-black-300  : 0 5px 15px rgba(0, 0, 0, 0.3);
+    --main-to-dark-color: var(--main-color);
+    --dark-to-main-color: var(--bg-dark);
 }
 
 @keyframes spin_home_circle {
@@ -513,7 +513,7 @@ ul {
 }
 
 .fun-facts-text p {
-    font-size  : 16px;
+    font-size  : 18px;
     font-weight: 300;
     line-height: 26px;
     margin     : 0 0 15px;
@@ -532,7 +532,7 @@ ul {
 .fun-fact-item {
     padding      : 30px;
     text-align   : center;
-    margin-top   : 30px;
+    margin-top   : 20px;
     border-radius: 10px;
     box-shadow   : var(--shadow-black-100);
 
@@ -541,13 +541,13 @@ ul {
 .fun-fact-item h3 {
     font-size  : 40px;
     font-weight: 700;
-    color      : var(--black-000);
+    color      : var(--black-900);
     margin     : 0 0 5px;
 }
 
 .fun-fact-item span {
     display       : block;
-    color         : var(--black-000);
+    color         : var(--black-900);
     margin        : 0;
     font-size     : 16px;
     font-weight   : 300;
