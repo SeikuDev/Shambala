@@ -9,7 +9,7 @@
     --color-4           : #A280FF;
     --bg-dark           : #2b2c2f;
     --black-000         : #fff;
-    --black-100         : #f7f7f7;
+    --blank-100         : #f7f7f7;
     --black-400         : #555555;
     --black-900         : #000;
     --main-color        : #7857fe;
@@ -344,11 +344,11 @@ ul {
     border-radius   : 4px;
     cursor          : pointer;
     color           : var(--main-color);
-    background-color: var(--black-100);
+    background-color: var(--blank-100);
 }
 
 .video-popup .video-popup-close:hover {
-    color           : var(--black-100);
+    color           : var(--blank-100);
     background-color: var(--main-color);
 }
 
@@ -501,7 +501,7 @@ ul {
 
 /*-- Start Fun Facts Section --*/
 .fun-facts {
-    background-color: var(--black-100);
+    background-color: var(--blank-100);
 }
 
 .fun-facts .section-title {
