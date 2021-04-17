@@ -504,6 +504,10 @@ ul {
     background-color: var(--blank-100);
 }
 
+.fun-facts .padding-row {
+    padding-right: 85px;
+}
+
 .fun-facts .section-title {
     margin: 5px 0px 20px 0px;
 }
@@ -535,7 +539,6 @@ ul {
     margin-top   : 20px;
     border-radius: 10px;
     box-shadow   : var(--shadow-black-100);
-
 }
 
 .fun-fact-item h3 {
@@ -572,3 +575,17 @@ ul {
 }
 
 /*-- End Fun Facts Section --*/
+
+/*-- Start App Screenshots Section --*/
+.screenshot-item {
+    margin: 15px;
+}
+
+.screenshot-item img {
+    /*display:block*/
+    margin   : auto;
+    width    : 100%;
+    max-width: 250px;
+}
+
+/*-- End App Screenshots Section --*/
