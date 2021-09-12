@@ -592,4 +592,82 @@ ul {
 
 /*-- Start Download Section --*/
 
+.btn-download-store {
+    padding         : 12px 30px;
+    border          : none;
+    border-radius   : 30px;
+    font-size       : 16px;
+    font-weight     : 500;
+    text-transform  : capitalize;
+    transition      : all 0.25s ease;
+    color           : var(--black-000);
+    background-color: var(--main-color);
+    box-shadow      : var(--shadow-black-100);
+}
+
+.btn-download-store:focus {
+    box-shadow: var(--shadow-black-100);
+}
+
+.btn-download-store:hover {
+    color           : var(--main-color);
+    background-color: var(--black-000);
+}
+
+.app-download {
+    background-image     : url("../img/download-app-bg-min.webp");
+    background-position  : center top;
+    background-attachment: fixed;
+    background-repeat    : no-repeat;
+    position             : relative;
+    z-index              : 1;
+}
+
+.app-download .section-title h2 {
+    color: var(--black-000);
+}
+
+.app-download::before {
+    content         : '';
+    position        : absolute;
+    left            : 0;
+    top             : 0;
+    width           : 100%;
+    height          : 100%;
+    z-index         : -1;
+    background-color: var(--main-to-dark-color);
+    opacity         : 0.4;
+}
+
+.app-download-item {
+    padding         : 30px;
+    text-align      : center;
+    border-radius   : 10px;
+    background-color: var(--black-000);
+    box-shadow      : var(--shadow-black-100);
+}
+
+.app-download-item i {
+    display  : inline-block;
+    font-size: 30px;
+    color    : var(--main-color);
+}
+
+.app-download-item h3 {
+    /* font-weight   : 500; */
+    margin        : 20px 0;
+    font-size     : 22px;
+    text-transform: capitalize;
+    color         : var(--black-900);
+}
+
+.app-download-item p {
+    margin     : 0 0 30px;
+    font-weight: 300;
+    font-size  : 16px;
+    line-height: 26px;
+    color      : var(--black-400);
+}
+
+
 /*-- End Download Section --*/
