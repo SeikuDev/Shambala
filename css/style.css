@@ -8,7 +8,7 @@
     --color-3           : #09d69c;
     --color-4           : #A280FF;
     --bg-dark           : #2b2c2f;
-    --black-000         : #fff;
+    --blank-000         : #fff;
     --blank-100         : #f7f7f7;
     --black-400         : #555555;
     --black-900         : #000;
@@ -600,7 +600,7 @@ ul {
     font-weight     : 500;
     text-transform  : capitalize;
     transition      : all 0.25s ease;
-    color           : var(--black-000);
+    color           : var(--blank-000);
     background-color: var(--main-color);
     box-shadow      : var(--shadow-black-100);
 }
@@ -611,7 +611,7 @@ ul {
 
 .btn-download-store:hover {
     color           : var(--main-color);
-    background-color: var(--black-000);
+    background-color: var(--blank-000);
 }
 
 .app-download {
@@ -624,7 +624,7 @@ ul {
 }
 
 .app-download .section-title h2 {
-    color: var(--black-000);
+    color: var(--blank-000);
 }
 
 .app-download::before {
@@ -643,7 +643,7 @@ ul {
     padding         : 30px;
     text-align      : center;
     border-radius   : 10px;
-    background-color: var(--black-000);
+    background-color: var(--blank-000);
     box-shadow      : var(--shadow-black-100);
 }
 
